@@ -12,7 +12,8 @@
             android:layout_height="wrap_content" app:srcCompat="@drawable/jordanlines"
             android:id="@+id/imageView3"
             tools:layout_width="wrap_content" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="-30dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="50dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="50dp" android:adjustViewBounds="true" android:cropToPadding="false"/>
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="20dp" android:adjustViewBounds="true" android:cropToPadding="false"
+            android:scaleType="fitEnd" app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="44dp"/>
 </android.support.constraint.ConstraintLayout>
